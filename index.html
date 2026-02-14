@@ -3,130 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Propiedad en Venta - Tlayacapán</title>
+    <title>Propiedad en Venta</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAV -->
-    <nav class="navbar">
-        <div class="nav-left">Propiedad en Venta</div>
-        <div class="nav-right">
-            <a href="#galeria">Galería</a>
-            <a href="#ubicacion">Ubicación</a>
-            <a href="#contacto">Contacto</a>
-        </div>
-    </nav>
+    <!-- Hero principal -->
+    <header class="hero">
+        <img src="img/hero.jpg" class="hero-img" alt="Imagen propiedad">
 
-    <!-- SECCIÓN PRINCIPAL (estilo de la imagen que enviaste) -->
-    <section class="main-section">
-        <div class="main-left">
-            <div class="image-wrapper">
-                <img src="img/hero.jpg" alt="Fachada principal">
-            </div>
-        </div>
+        <div class="hero-overlay"></div>
 
-        <div class="main-right">
-            <h1>Tu próxima propiedad<br>en Tlayacapán</h1>
+        <div class="hero-content">
+            <h1>ESPECTACULAR PROYECTO<br>EN EL CENTRO DE LA CIUDAD</h1>
             <p>
-                Casa ubicada sobre la carretera Yautepec – Tlayacapán, 
-                en una zona segura, tranquila y con excelente acceso. 
-                Ideal para descanso, inversión o desarrollo.
+                Propiedad moderna con diseño de lujo, amplios espacios e iluminación natural.<br>
+                Excelente oportunidad para inversión o residencia.
             </p>
 
-            <a href="https://wa.me/5210000000000" target="_blank" class="btn-whatsapp">
-                Enviar WhatsApp
-            </a>
+            <a href="#contacto" class="btn">Contactar por WhatsApp</a>
+        </div>
+    </header>
+
+    <!-- Sección de información -->
+    <section class="info">
+        <h2>Características</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📐 Tamaño</h3>
+                <p>Especifica aquí los m² del terreno y construcción</p>
+            </div>
+
+            <div class="card">
+                <h3>💰 Precio</h3>
+                <p>Agrega el precio o rango estimado</p>
+            </div>
+
+            <div class="card">
+                <h3>📍 Ubicación</h3>
+                <p>Tlayacapán, Morelos — zona segura y tranquila</p>
+            </div>
+
+            <div class="card">
+                <h3>🏗 Servicios</h3>
+                <p>Indica si cuenta con luz, agua, drenaje, escrituras</p>
+            </div>
         </div>
     </section>
 
-    <!-- SECCIÓN DE CARACTERÍSTICAS -->
-    <section class="features-section">
-        <div class="feature">
-            <h3>Precio</h3>
-            <p>$2,450,000 MXN</p>
-        </div>
-
-        <div class="feature">
-            <h3>Tamaño</h3>
-            <p>220 m² terreno • 160 m² construcción</p>
-        </div>
-
-        <div class="feature">
-            <h3>Servicios</h3>
-            <p>Agua, luz, escritura, acceso pavimentado</p>
-        </div>
-
-        <div class="feature">
-            <h3>Ubicación</h3>
-            <p>Carretera Yautepec – Tlayacapán</p>
-        </div>
-    </section>
-
-    <!-- GALERÍA -->
-    <section id="galeria" class="gallery-section">
+    <!-- Galería -->
+    <section class="galeria">
         <h2>Galería</h2>
 
-        <div class="gallery-row">
-            <h3>Sala</h3>
-            <img src="img/img1.jpg" alt="Sala">
-        </div>
-
-        <div class="gallery-row">
-            <h3>Comedor</h3>
-            <img src="img/img2.jpg" alt="Comedor">
-        </div>
-
-        <div class="gallery-row">
-            <h3>Alberca</h3>
-            <img src="img/img3.jpg" alt="Alberca">
-        </div>
-
-        <div class="gallery-row">
-            <h3>Pasillos</h3>
-            <img src="img/img1.jpg" alt="Pasillos">
-        </div>
-
-        <div class="gallery-row">
-            <h3>Recámaras</h3>
-            <img src="img/img2.jpg" alt="Recámaras">
+        <div class="galeria-grid">
+            <img src="img/img1.jpg" alt="Foto propiedad 1">
+            <img src="img/img2.jpg" alt="Foto propiedad 2">
+            <img src="img/img3.jpg" alt="Foto propiedad 3">
+            <img src="img/img4.jpg" alt="Foto propiedad 4">
         </div>
     </section>
 
-    <!-- UBICACIÓN -->
-    <section id="ubicacion" class="map-section">
-        <h2>Ubicación</h2>
-
-        <div class="map-container">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.1234567890123!2d-98.98600000000000!3d18.95070000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce2fbe12345678%3A0xabcdef1234567890!2sTlayacap%C3%A1n%2C%20Morelos!5e0!3m2!1ses!2smx!4v1700000000000"
-              loading="lazy" 
-              allowfullscreen="">
-            </iframe>
-        </div>
-    </section>
-
-    <!-- CONTACTO -->
-    <section id="contacto" class="contact-section">
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
         <h2>Contacto</h2>
-        <p>Para más información o citas:</p>
 
-        <a href="https://wa.me/5210000000000" target="_blank" class="btn-whatsapp-large">
-            Enviar mensaje por WhatsApp
-        </a>
+        <p>Para más información, envía mensaje directo:</p>
+        <a href="https://wa.me/5210000000000" target="_blank" class="btn-wsp">Enviar WhatsApp</a>
     </section>
 
     <footer>
-        © 2026 Propiedad en Venta - Tlayacapán
+        <p>© 2026 Propiedad en Venta</p>
     </footer>
 
 </body>
 </html>
-
-
-
-
-
 
 
